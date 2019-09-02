@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Volkhov&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    <link href="MembershipStyle.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div id="container">
+    <h1>~Beach Club Membership<img src="images/island-with-palm-trees.png" style="height:30px"/>~</h1>
+    <form>   
+    <p>
+    <label for="fName">First Name:</label>
+    <input id="fName" type="text" placeholder="Phong"/>
+    </p>
+    <p>
+    <label for="lName">Last Name:</label>
+    <input id="lName" type="text" placeholder="Vu"/>
+    </p>
+    <p>
+    <label for="age"><img src="images/man-user.png" style="height:15px">&nbsp;&nbsp;Age:</label>
+    <input id="age" type="number" placeholder="20"/>
+    <span id="ageError"></span>
+    </p>
+    <p>
+    <label for="add"><img src="images/facebook-placeholder-for-locate-places-on-maps.png" style="height:15px">&nbsp;&nbsp;Address:</label>
+    <input id="add" type="text" />
+    </p>
+    <p>
+    <label for="city">City:</label>
+    <input id="city" type="text" />
+    </p>
+    <p>
+    <label for="post">Postal Code:</label>
+    <input id="post" type="text" placeholder="a0a0a0"/>
+    <span id="postalCodeError"></span>
+    </p>
+    <p>
+    <label for="prov">Province:</label>
+    <select id="prov">
+        <option value="" selected disabled hidden></option>
+        <option value="QC">QC</option>
+        <option value="ON">ON</option>
+        <option value="MN">MN</option>
+        <option value="SK">SK</option>
+        <option value="AB">AB</option>
+        <option value="BC">BC</option>
+    </select>
+    </p>
+    <p>
+    <label for="mail"><img src="images/mail-black-envelope-symbol.png" style="height:15px">&nbsp;&nbsp;Email:</label>
+    <input id="mail" type="text" placeholder="name@gmail.com">
+    <span id="emailError"></span>
+    </p>
+    <p>
+    <label for="pass1"><img src="images/lock.png" style="height:15px">&nbsp;&nbsp;Password:</label>
+    <input id="pass1" type="password" />
+     <span id="passwordError"></span>
+    </p>
+    <p>
+    <label for="pass2">Confirm Password:</label>
+    <input id="pass2" type="password" placeholder="Password must be correct first" disabled/>
+    <span id="confirmPasswordError"></span>
+    </p>
+    <p><label for="captchaEnter">Captcha code:</label></p>
+    <div id="captchaDiv">
+    <div id="captcha"></div>
+    <div id="captchaGen"><img src="images/icons8-reset-24.png" /></div>
+    <input id="captchaEnter" type="text"/>
+    </div>
+    <div id="captchaError"></div>
+     <div id="formError"></div>
+    </form>
+    
+    <button id="register">Register Now</button>
+    <button id="reset">Reset Form</button>
+    
+    <div id="accountInfo"></div>
+    </div>
+    <h5>Created by Vu Hieu Phong - 301049781 - COMP125</h5>
+     <h5><a href="../index.html">Back to index</a></h5>
+</body>
+<script src="Membership.js"></script>
+</html>

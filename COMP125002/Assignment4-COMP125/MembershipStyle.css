@@ -1,0 +1,179 @@
+﻿body {
+    background-image: url(images/photo-1528215747454-3d0e0902fff2.jpg);
+    background-size: 140%;
+    background-repeat: no-repeat;
+    font-family: 'Volkhov', serif;
+    font-size:13px;
+}
+
+h1 {
+    padding-top: 40px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color:black;
+    font-size:40px;
+}
+
+#container {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: hsla(184, 22%, 76%, 0.8);
+    border: solid;
+    border-width: 0px;
+    border-radius: 40px 40px;
+    color: darkslategray;
+}
+
+#accountInfo{
+    display:none;
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom:10px;
+    }
+#accountInfo p{
+    width:700px;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:17px;
+    margin-bottom:40px;
+    border-style:dashed;
+    border-width:2px;
+    border-color:darkslategray;
+    padding:20px;
+    background-image:url('images/jbp_beachpattern.jpg');
+}
+
+#accountInfo p span{
+	font-family: 'Lobster', cursive;
+	font-size:30px;
+}
+
+#formError{
+    margin-top:10px;
+    margin-bottom:10px;
+    height:20px;
+}
+input:disabled {
+    background-color: white;
+}
+input {
+    border: 1px solid #cccccc;
+    padding:7px;
+    width:250px;
+}
+select {
+    border: 1px solid #cccccc;
+    padding: 5px;
+}
+
+button {
+    border: 1px solid #cccccc;
+    padding: 7px;
+    margin-left:40px;
+    height:40px;
+    width:120px;
+    margin-bottom:40px;
+}
+
+#register{
+    margin-left:340px;
+}
+
+#register:hover{
+    background-color:lightskyblue;
+}
+#reset:hover {
+    background-color: rgba(255, 186, 97, 1);
+}
+
+input:focus, select:focus, button:focus {
+    outline-color: lightskyblue;
+}
+label {
+    width: 140px;
+    text-align: right;
+    float: left;
+    padding-right: 30px;
+}
+
+#captchaDiv {
+    width: 320px;
+    height: 100px;
+    background-color: gray;
+    border: solid;
+    border-color: none;
+    border-width: 0px;
+    border-radius: 10px 10px;
+    background-image: url(images/istockphoto-900718646-612x612.jpg);
+    background-size:70%;
+    margin-top:60px;
+    margin-left:330px;
+}
+#captcha {
+    width: 196px;
+    height: 28px;
+    background-color: lightgray;
+    margin-left: 57px;
+    margin-top: 16px;
+    position: absolute;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 13px;
+    
+}
+#captchaGen {
+    width: 28px;
+    height: 28px;
+    background-color: white;
+    margin-left:281px;
+    margin-top:16px;
+    position: absolute;
+    display:inline-block;
+    cursor:pointer;
+}
+#captchaGen img{
+    padding-left:2px;
+    padding-top:2px;
+}
+#captchaEnter {
+    width: 124px;
+    height: 10px;
+    position: absolute;
+    margin-left: 84px;
+    margin-top: 50px;
+}
+
+p{
+    margin-left:220px;
+}
+
+form{
+    padding-top:10px;
+}
+
+#formError,#captchaError{
+    margin-top:10px;
+    width:980px;
+    text-align:center;
+}
+h5{
+	color:darkslategray;
+	text-align:center;
+}
+a{
+	text-decoration:none;
+	color:darkslategray;
+}
+a:hover{
+	text-decoration:none;
+	color:darkslategray;
+	
+}
+a:visited{
+	text-decoration:none;
+	color:darkslategray;
+
+}
+
