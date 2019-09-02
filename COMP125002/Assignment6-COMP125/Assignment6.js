@@ -1,4 +1,5 @@
-﻿function loadImages() {
+﻿///author: Vu Hieu Phong
+function loadImages() {
     $("#next").css("display", "block");
     $("#prev").css("display", "block");
     $("#loader").fadeOut("fast");
